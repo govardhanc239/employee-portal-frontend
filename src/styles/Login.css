@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+  background: linear-gradient(135deg, #eef2f3 0%, #e3e6e7 100%);
+}
+
+.login-left {
+  width: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.login-illustration {
+  width: 85%;
+  max-width: 550px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+.login-right {
+  width: 50%;
+  background: #f7f9fa;
+}
+
+.login-card {
+  width: 85%;
+  max-width: 380px;
+  background: white;
+  border-radius: 14px;
+  padding: 30px;
+}
